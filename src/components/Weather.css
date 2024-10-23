@@ -1,0 +1,94 @@
+html, body {
+    height: 80%;
+    margin: 0;
+    font-family: Arial, sans-serif; /* Optional: to standardize font */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f0f4f8; /* Light background for contrast */
+}
+
+.weather {
+    padding: 120px 40px; /* Reduced padding */
+    border-radius: 15px; /* Slightly smaller border radius */
+    background-image: linear-gradient(45deg, #2f4680, #500ae4);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 350px; /* Slightly narrower */
+    width: 100%;
+    box-shadow: 0 6px 18px rgba(0, 0, 0, 0.15); /* Reduced shadow */
+    text-align: center;
+}
+
+.search-bar {
+    display: flex;
+    align-items: center;
+    gap: 10px; /* Reduced gap */
+    width: 100%; /* Full width */
+    margin-bottom: 15px; /* Less space below search bar */
+}
+
+.search-bar input {
+    flex: 1; /* Full remaining width */
+    height: 40px; /* Shorter height */
+    border: none;
+    outline: none;
+    border-radius: 30px; /* More compact */
+    padding-left: 12px; /* Comfortable padding */
+    color: #626262;
+    background: #ebfffc;
+    font-size: 16px; /* Slightly smaller font */
+}
+
+.search-bar img {
+    width: 40px; /* Smaller icon */
+    padding: 8px; /* Reduced padding */
+    border-radius: 50%;
+    background: #ebfffc;
+    cursor: pointer;
+}
+
+.weather-icon {
+    width: 120px; /* Smaller icon */
+    margin: 20px 0px; /* Reduced margin */
+}
+
+.temperature {
+    color: #fff;
+    font-size: 60px; /* Reduced font size */
+    line-height: 1;
+    margin: 5px 0;
+}
+
+.location {
+    color: #fff;
+    font-size: 32px; /* Reduced font size */
+    margin: 5px 0;
+}
+
+.weather-data {
+    width: 100%; /* Full width */
+    margin-top: 30px; /* Less top margin */
+    color: #fff;
+    display: flex;
+    justify-content: space-around; /* Spread evenly */
+}
+
+.weather-data .col {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 6px; /* Less gap */
+    font-size: 18px; /* Reduced font size */
+}
+
+.weather-data .col span {
+    display: block;
+    font-size: 14px; /* Slightly smaller text */
+}
+
+.weather-data .col img {
+    width: 30px; /* Smaller icon */
+    margin-top: 5px; /* Reduced margin */
+}
